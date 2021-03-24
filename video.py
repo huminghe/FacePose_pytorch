@@ -97,11 +97,11 @@ def main(args):
         h = y2 - y1
 
         size = int(max([w, h]))
-        cx = x1 + w/2
-        cy = y1 + h/2
-        x1 = cx - size/2
+        cx = x1 + w//2
+        cy = y1 + h//2
+        x1 = cx - size//2
         x2 = x1 + size
-        y1 = cy - size/2
+        y1 = cy - size//2
         y2 = y1 + size
 
         dx = max(0, -x1)
